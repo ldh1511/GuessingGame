@@ -1,0 +1,93 @@
+@media only screen and (max-width: 1200px){
+	div#alphabet_container {
+    	margin: 0 45px;
+	}
+	div#answers-container{
+		flex-wrap: wrap;
+	}
+}
+@media only screen and (max-width: 991px){
+	div#alphabet_container{
+		margin: 0 0;
+	}
+}
+@media only screen and (max-width: 768px){
+	button.alphabet-btn{
+		margin: 3px;
+		width: 50px;
+		height: 50px;
+		font-size: 25px;
+	}
+	.suggestion{
+		margin: 10px 0;
+		font-size: 22px;
+	}
+	.answers-btn{
+		margin: 5px;
+		width: 50px;
+		height: 50px;
+		font-size: 25px;
+	}
+	p{
+		font-size: 24px;
+	}
+	.turn{
+		font-size: 22px;
+	}
+	.btn-tool{
+		height: 50px;
+		font-size: 22px;
+	}
+	.thongtin1{
+		width: 400px;
+		font-size: 65px;
+	}
+}
+@media only screen and (max-width: 578px){
+	h1{
+		font-size: 35px;
+	}
+	p{
+		font-size: 21px;
+		padding-bottom: 15px;
+	}
+	button.alphabet-btn{
+		width: 40px;
+		height: 40px;
+		font-size: 21px;
+	}
+	.suggestion{
+		padding: 15px;
+	}
+	.answers-btn{
+		width: 40px;
+		height: 40px;
+		font-size: 21px;
+	}
+	.turn{
+		font-size: 22px;
+		padding: 15px;
+	}
+	.hint{
+		font-size: 22px;
+		padding: 0 0 15px 0;
+	}
+	.btn-tool {
+    	height: 45px;
+    	font-size: 21px;
+    	padding: 0 11px;
+	}
+	.tool{
+		padding-bottom: 30px;
+	}
+	.thongtin1 {
+    	width: 300px;
+    	font-size: 50px;
+    	height: 150px;
+	}
+}
+@media only screen and (max-width: 400px){
+	p{
+		padding-bottom: 0px;
+	}
+}
